@@ -23,7 +23,7 @@ export default function Layout(props) {
                     </button> 
                 ) : (
                 <button onClick={() =>{setShowModal(true) }}>
-                    <p>Sign up for free</p>
+                    <p>Log in</p>
                     <i className="fa-solid fa-mug-hot fa-lg"></i>
                 </button>
             )}
