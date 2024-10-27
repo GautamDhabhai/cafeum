@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import History from './components/History'
 import Layout from './components/Layout'
 import Stats from './components/Stats'
-import { useAuth } from './Context/AuthContext'
+import { useAuth } from './context/AuthContext'
 import { coffeeConsumptionHistory } from './utils'
 
 
