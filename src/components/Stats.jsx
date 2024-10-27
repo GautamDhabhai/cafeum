@@ -1,6 +1,6 @@
 //when you want to reuse a component you can either use the map method over a array like we did in previous projects like the pokedeckz and to-do list or if you're only going to use the component within the same file ie. Stat.jsx the you can create another functional component
 
-import { useAuth } from "../Context/AuthContext"
+import { useAuth } from "../context/AuthContext"
 import { calculateCoffeeStats, calculateCurrentCaffeineLevel, coffeeConsumptionHistory, getTopThreeCoffees, statusLevels } from "../utils"
 
 function StatCard(props) {

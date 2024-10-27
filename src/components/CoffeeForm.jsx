@@ -2,7 +2,7 @@ import { coffeeOptions} from '../utils'
 import { useState } from 'react'
 import Modal from './Modal'
 import Authentication from './Authentication'
-import { useAuth } from '../Context/AuthContext'
+import { useAuth } from '../context/AuthContext'
 import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../../firebase'
 
